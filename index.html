@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Professional To-Do App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Professional To-Do List</h2>
+
+    <div class="input-group">
+        <input type="text" id="taskInput" placeholder="Enter your task">
+        <input type="date" id="taskDate">
+        <button id="addBtn">Add Task</button>
+    </div>
+
+    <ul id="taskList"></ul>
+</div>
+
+<!-- Popup -->
+<div class="popup" id="popup">
+    <div class="popup-box">
+        <p id="popupMessage"></p>
+        <button id="closePopup">OK</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
