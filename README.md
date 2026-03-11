@@ -26,6 +26,7 @@ Then run:
 git add README.md
 git commit -m "Added README file"
 git push
+
 🔄 How to Pull Project Later (Step-by-Step)
 If you want to download this project on another computer:
 
